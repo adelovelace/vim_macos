@@ -416,3 +416,44 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+
+# Ignorar directorios de dependencias
+/venv/
+/env/
+
+# Ignorar archivos de salida y modelos de entrenamiento
+*.h5
+*.pth
+*.pkl
+*.pklz
+
+# Ignorar archivos de logs o resultados temporales
+*.log
+*.out
+*.err
+
+# Ignorar archivos de configuración IDE
+.idea/
+.vscode/
+
+# Ignorar archivos específicos de Mac
+.DS_Store
+
+# Ignorar archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos de Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignorar archivos generados por ciertos entornos de desarrollo
+.env
+*.swp
+
+# Si usas TensorFlow o Keras, puedes ignorar checkpoints o modelos guardados
+checkpoint/
